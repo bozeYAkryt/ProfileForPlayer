@@ -1,0 +1,14 @@
+name: DexLand
+version: '${project.version}'
+main: boze_kak_ya_kryt.pofile.DexLand
+api-version: '1.20'
+commands:
+  setwebsite:
+    description: Установить веб-сайт игроку
+    usage: /setwebsite
+  profile:
+    description: Показать профиль игрока
+    usage: /profile
+
+listeners:
+  - boze_kak_ya_kryt.pofile.DexLand
